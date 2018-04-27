@@ -1,0 +1,17 @@
+# If you want electrum-monetaryunit to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum_monetaryunit.desktop
+
+[Desktop Entry]
+Comment=Lightweight MonetaryUnitpay Client
+Exec=electrum-monetaryunit %u
+GenericName[en_US]=Electrum-MUE
+GenericName=Electrum-MUE
+Icon=electrum-monetaryunit
+Name[en_US]=Electrum MonetaryUnitpay Wallet
+Name=Electrum MonetaryUnitpay Wallet
+Categories=Network;
+StartupNotify=false
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/monetaryunitpay;
+
