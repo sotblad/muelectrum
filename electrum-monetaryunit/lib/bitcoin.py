@@ -44,15 +44,15 @@ import x11_hash
 # https://github.com/monetaryunitpay/monetaryunit/ 0.11.0 Release notes for drkp/drkv/DRKP/DRKV
 # https://github.com/satoshilabs/slips/blob/master/slip-0044.md
 TESTNET = False
-ADDRTYPE_P2PKH = 76
-ADDRTYPE_P2SH = 16
-WIF = 204
+ADDRTYPE_P2PKH = 16
+ADDRTYPE_P2SH = 16 #notyet
+WIF = 126
 XPRV_HEADER = 0x0488ade4
 XPUB_HEADER = 0x0488b21e
 DRKP_HEADER = 0x02fe52cc
 DRKV_HEADER = 0x02fe52f8
 HEADERS_URL = ''  # TODO headers bootstrap
-GENESIS = '00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6'
+GENESIS = '000002acd994a815401fbaae0e52404b32857efd0b7b0c77b8e0715ccdd6d437'
 
 
 def set_testnet():
